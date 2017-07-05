@@ -1,0 +1,42 @@
+.top-menu {
+    background-color: $yellow;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+} 
+    .top-menu .navbar-nav > li > a {
+        color: $black;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .top-menu .navbar-nav > li:not(.logo) > a:hover::after {
+        content: "";
+        width: 0;
+        height: 0; 
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-top: 12px solid $yellow;
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        margin-left: -12px;
+    }
+
+    .top-menu .btn-gray { margin-top: 15px; }
+
+.navbar-nav > li > a {
+    padding: 24px 10px;
+}
+
+.logo {
+    width: 115px;
+    height: 68px;
+}
+
+.nav > .logo > a {
+    position: absolute;
+    top: -16px;
+}

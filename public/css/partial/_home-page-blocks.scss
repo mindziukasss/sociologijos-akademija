@@ -1,0 +1,38 @@
+/* Home page block styles */
+#main-header {
+    height: 552px;
+    background: url("../img/home-page/01-header.png") no-repeat center bottom, linear-gradient(to bottom, #36363c 0%,#4d4c5b 100%);
+}
+#about {
+    padding-top: 73px;
+    height: 565px;
+    background: url("../img/home-page/02-about.png") no-repeat center top;
+}
+#team {
+    height: 596px;
+    background: url("../img/home-page/03-team.png") no-repeat center top $yellow;
+}
+#events {
+    height: 901px;
+    background: url("../img/home-page/04-events.png") no-repeat center top, linear-gradient(to bottom, #36363c 0%,#4d4c5b 100%);
+}
+#gallery {
+    height: 1045px;
+    background: url("../img/home-page/05-gallery.png") no-repeat center top;
+}
+#study {
+    height: 623px;
+    background: url("../img/home-page/06-study.png") no-repeat center top $yellow;
+}
+#blog {
+    height: 1003px;
+    background: url("../img/home-page/07-blog.png") no-repeat center top;
+}
+#feedback {
+    height: 525px;
+    background: url("../img/home-page/08-feedback.png") no-repeat center top;
+}
+#contact {
+    height: 262px;
+    background: url("../img/home-page/09-contact.png") no-repeat center top, linear-gradient(to bottom, #36363c 0%,#4d4c5b 100%);
+}

@@ -1,0 +1,29 @@
+/* Studies */
+#study {
+    padding-top: 170px;
+}
+    #study .col-sm-4 {
+        padding: 95px 70px 60px 70px;
+    }
+
+    #study h3 {
+        margin-bottom: 35px;
+    }
+
+    #study .block-header {
+        position: absolute;
+        left: -15px;
+        top: -55px;
+    }
+
+    #study .col-sm-4:first-child {
+        background: url("../img/home-page/pav1.png") no-repeat center top;
+    }
+
+    #study .col-sm-4:nth-child(2) {
+        background: url("../img/home-page/pav2.png") no-repeat center top;
+    }
+
+    #study .col-sm-4:last-child {
+    background: url("../img/home-page/pav3.png") no-repeat center top; 
+    }
