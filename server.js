@@ -9,6 +9,10 @@ app.get('/', function (req, res) {
   res.render('home');
 })
 
+app.get('/homenew', function (req, res) {
+    res.render('homeNew');
+})
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')
 })

@@ -1,0 +1,35 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+
+a {
+    color: #33333B;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.mr-auto {
+    float: left;
+    margin: auto;
+}
+
+.top-menu {
+    background-color: #ffbe08;
+}
+
+.logo {
+    width: 115px;
+    height: 68px;
+    padding: 6px;
+}
+
+.navbar {
+    position: relative;
+    height: 68px;
+}
+
+.top-menu .navbar-nav > li > a {
+    color: #333338;
+    font-size: 18px;
+    text-transform: uppercase;
