@@ -1,0 +1,57 @@
+body {
+  background: #333333;
+}
+@media (max-width: 319px) {
+  body {
+    display: none;
+  }
+}
+
+/* header */
+
+.header {
+  background: #FFBE08;
+}
+.header .flex-row {
+  flex-grow: 1;
+}
+.header .menu-button {
+  width: 24px;
+  height: 46px;
+}
+.header .menu-item {
+  display: inline-block;
+  padding: 0 10px;
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 68px;
+}
+.header .menu-item.logo {
+  width: 72px;
+  height: 72px;
+  margin: 8px 30px -36px;
+  border-radius: 36px;
+  background: #333333 url(/delta.png) no-repeat center / 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
+@media (max-width: 991px) {
+  .header .menu-item.logo {
+    width: 46px;
+    height: 46px;
+  }
+}
+.header .register {
+  width: 160px;
+  padding: 0;
+  border-radius: 17px;
+  background: #4E4D5C;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 34px;
+}
+
+/* about */
